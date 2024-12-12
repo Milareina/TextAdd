@@ -1,0 +1,44 @@
+.text-app {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.text-input {
+  padding: 5px;
+  font-size: 1.2rem;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #a929dc;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.add-button:hover {
+  background-color: #dfb2ec;
+  box-shadow: 0 0 10px 5px #a929dc;
+  color: rgb(23, 4, 47);
+}
+
+.display-text {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(193, 83, 61);
+}
